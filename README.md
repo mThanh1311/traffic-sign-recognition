@@ -44,4 +44,4 @@ We can see that the model is overfitting to the training data and the accuracy o
 Run 'inference.py' on Terminal:
 'python inference.py [model.h5] <test> <file.csv>'
 
-<img src="https://imgur.com/a/NkeomDm)https://imgur.com/a/NkeomDm">
+![Output image](https://imgur.com/a/NkeomDm)
