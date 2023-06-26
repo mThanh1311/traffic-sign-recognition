@@ -1,4 +1,4 @@
-![image](https://github.com/mThanh1311/traffic-sign-recognition/assets/89265290/d2503d2c-70a9-4fff-88ca-3bfb954dd78e)# Traffic Sign Recognition
+# Traffic Sign Recognition
 AI Project: Use CNN model and GTSRB for Traffic sign classification
 # Overview
 In this project, I used deep learning with Convolution Neural Network to classify the traffic sign. I will train and validate a model so it can classify traffic sign images using the German Traffic Sign Dataset. After the model is trained, I will then try out my model on images of Vietnamese traffic signs that I find on the web and I took a photo in the real-world.
