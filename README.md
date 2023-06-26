@@ -83,8 +83,7 @@ The results are:
 
 We can see that the model is overfitting to the training data and the accuracy on validation set is a little lower than on training set
 
-<img src="https://imgur.com/a/XpEV4Kn)https://imgur.com/a/XpEV4Kn">
-
+![z4466130561739_d750317ddea9e830b0c5fb200b30ef76](https://github.com/mThanh1311/traffic-sign-recognition/assets/89265290/8f0332cc-ae88-42b6-b801-ff66d5e4beb6)
 # Output Test:
 Run 'inference.py' on Terminal:
 'python inference.py [model.h5] <test> <file.csv>'
