@@ -20,6 +20,27 @@ In this project, I used deep learning with Convolution Neural Network to classif
 * scikit-learn: 1.2.2
 # Dataset:
 Download the [data set]([https://github.com](https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign)). This is a pickled dataset in which the images are already resized to 32x32. It contains a training, validation and test set.
+# Model summary:
+| Layers                                                               | Output Shape               | Param    |  
+|---------------------------------------------------|--------------------------|----------| 
+|  conv2d (Conv2D)                                             |      (None, 28, 28, 32)   |   896      |
+| batch_normalization (BatchNormalization)      |     (None, 28, 28, 32)    | 128        |
+|  max_pooling2d (MaxPooling2D)                     |      None, 14, 14, 32)    |   0          |
+|  dropout (Dropout)                                          |      (None, 14, 14, 32)   |   0          |
+|  conv2d_1 (Conv2D)                                         |      (None, 12, 12, 32)   |   9248    |
+| batch_normalization_1 (BatchNormalization)  |      (None, 12, 12, 32))  | 128        |
+|  max_pooling2d_1 (MaxPooling2D)                 |      (None, 6, 6, 32)       |   0          |
+|  dropout_1 (Dropout)                                      |      (None, 6, 6, 32)        |   0          |
+|                 flattern                                             |      (None, 1152))          |   0          |
+|       dense (Dense)                                            |      (None, 128)             |  147584 |
+|      dropout_2 (Dropout)                                  |       (None, 128)             |  0          |
+|      dropout_4 (Dropout)                                  |       (None, 128)             |  0          |
+|      dense_3 (Dense)                                         |       (None, 48)               |   6192   |
+|      dense_4 (Dense)                                         |       (None, 48)               |   2107   |
+
+Total params: 199,307
+Trainable params: 199,179
+Non-trainable params: 128
 # Training:
 EPOCHS = 10
 IMG_WIDTH = 30
