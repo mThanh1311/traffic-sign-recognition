@@ -1,5 +1,6 @@
 
 python traffic.py gtsrb [model.h5]
+
     ```
     Epoch 1/10
     500/500 [==============================] - 22s 39ms/step - loss: 2.2376 - accuracy: 0.3495 - val_loss: 1.2617 - val_accuracy: 0.6117
