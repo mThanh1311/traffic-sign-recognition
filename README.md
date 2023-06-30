@@ -39,7 +39,9 @@ Download the [data set]([https://github.com](https://www.kaggle.com/datasets/meo
 |      dense_4 (Dense)                                         |       (None, 48)               |   2107   |
 
 Total params: 199,307
+
 Trainable params: 199,179
+
 Non-trainable params: 128
 # Training:
 EPOCHS = 10
