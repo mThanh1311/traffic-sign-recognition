@@ -11,13 +11,6 @@ In this project, I used deep learning with Convolution Neural Network to classif
 * Use adam optimization, categorical_crossentropy loss function
 * Analyze the softmax probabilities of the new images
 * Summarize the results (validation accuracy, accuracy, validation loss, loss)
-# Dependencies
-* Python: 3.10
-* Tensorflow: 2.12.0
-* Matplotlib: 3.7.0
-* Numpy: 1.23.5
-* OpenCV: 4.5.4.58
-* scikit-learn: 1.2.2
 # Dataset:
 Download the [data set]([https://github.com](https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign)). This is a pickled dataset in which the images are already resized to 32x32. It contains a training, validation and test set.
 # Model summary:
@@ -67,3 +60,11 @@ Run 'inference.py' on Terminal:
 'python inference.py [model.h5] <test> <file.csv>'
 
 ![z4466130561739_d750317ddea9e830b0c5fb200b30ef76](https://github.com/mThanh1311/traffic-sign-recognition/assets/89265290/13759ee6-8731-4480-b4a7-b66b5bf42dcf)
+
+# Dependencies
+* Python: 3.10
+* Tensorflow: 2.12.0
+* Matplotlib: 3.7.0
+* Numpy: 1.23.5
+* OpenCV: 4.5.4.58
+* scikit-learn: 1.2.2
